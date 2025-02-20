@@ -175,3 +175,5 @@ Frontend/node_modules/
 Backend/celerybeat-schedule.bak
 Backend/celerybeat-schedule.dat
 Backend/celerybeat-schedule.dir
+
+Backend/db_directory/
