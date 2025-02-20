@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Household App</title>
+  <style>
+    /* Popup Modal CSS Starts */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5) !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    .modal-content {
+      max-height: 85%;
+      overflow-y: auto;
+    }
+
+    /* Popup Modal CSS Ends */
+
+    .scrollbar-primary::-webkit-scrollbar {
+      width: 7px;
+      background-color: #bbbbbb;
+    }
+
+    .scrollbar-primary::-webkit-scrollbar-thumb {
+      background-color: #01778b;
+    }
+
+    body {
+      background: #fefff4 !important;
+      /* color: #f2fff9 !important; */
+    }
+
+    .card {
+      --bs-card-bg: #4343431c !important;
+    }
+
+    .col-md-6,
+    .block {
+      background: #55545429 !important;
+    }
+
+    .scrollbar-primary::-webkit-scrollbar {
+      background-color: #bbbbbb;
+      height: 3px;
+    }
+
+    .scrollbar-primary::-webkit-scrollbar-thumb {
+      background-color: #01778b;
+    }
+
+    .currentlyPlayingBox {
+      --bs-bg-opacity: 0.1;
+      background-color: #00171ac9 !important;
+      backdrop-filter: blur(10px);
+      color: #f2fff9;
+    }
+
+    .modal-overlay {
+      background-color: #001214db !important;
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+      background-color: #fefff4 !important;
+      backdrop-filter: blur(10px);
+      /* color: #f2fff9; */
+      border-radius: 8px !important;
+    }
+
+    .rating {
+      background-color: #ffeccef2 !important;
+    }
+
+    .rating:hover {
+      color: #000 !important;
+      background-color: #ecd1a7f2 !important;
+    }
+
+    audio::-webkit-media-controls-play-button,
+    audio::-webkit-media-controls-panel {
+      background-color: #f2fff9;
+    }
+
+    a {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body class="scrollbar-primary">
+  <div id="app"></div>
+  <script type="module" src="/src/main.js">
+
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

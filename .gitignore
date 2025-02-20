@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+Frontend/node_modules/
+Backend/celerybeat-schedule.bak
+Backend/celerybeat-schedule.dat
+Backend/celerybeat-schedule.dir

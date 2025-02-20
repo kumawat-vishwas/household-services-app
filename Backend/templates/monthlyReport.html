@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            padding: 3rem;
+            background: linear-gradient(339deg, #242424 0%, #102730 100%);
+            color: #f2fff9 !important;
+        }
+
+        .scrollbar-primary::-webkit-scrollbar {
+            width: 7px;
+            height: 5px;
+            background-color: #bbbbbb;
+        }
+
+        .scrollbar-primary::-webkit-scrollbar-thumb {
+            background-color: #01778b;
+        }
+    </style>
+</head>
+
+<body class="scrollbar-primary">
+    <p>Dear <strong>{{data.name}}</strong>,</p>
+    <p>This is the monthly report of your bookings created.</p>
+    <p><b>Approved Requests:</b> {{data.assigned}}</p>
+    <p><b>Pending Requests:</b> {{data.requested}}</p>
+    <p><b>Completed Requests:</b> {{data.closed}}</p>
+
+
+    <p>Regards,
+        <br>
+        Household services App
+    </p>
+</body>
+
+</html>
